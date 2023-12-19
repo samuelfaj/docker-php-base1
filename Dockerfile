@@ -89,6 +89,7 @@ RUN apk --no-cache add certbot
 
 RUN apk add \
     php7 \
+    php7-redis \
     php7-session \
     php7-fpm \
     php7-pdo \
